@@ -1,0 +1,168 @@
+body{
+    background-image: url("images/fondo.jpg");
+}
+header{
+    width: 100%;
+    height: 70px;
+}
+h1{
+    padding-left: 25px;
+    padding-bottom: 15px;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(230, 189, 135);
+    text-shadow: 0.1em 0.1em rgb(75, 75, 75)
+}
+nav{
+    background-color: rgb(57, 30, 0);
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    display:block;
+    width: 20%;
+}
+nav ul li a {
+    font-size: 150%;
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+nav li a:hover {
+    color: rgb(230, 189, 135);
+}
+#banner{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#banner header h2{
+    color: #fff;
+    float: left;
+    position: absolute;
+    font-size: 300%;
+    margin: 8% 50px;
+}
+#banner p{
+    font-size: 130%;
+    width: 35%;
+    color: rgb(226, 179, 118);
+    float: left;
+    position: absolute;
+    margin: 12% 10% 0px 50px;
+}
+#banner img{
+    width: 99%;
+    margin-top: -70px;
+}
+#contenido .columna{
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 50px 30px 30px 30px;
+}
+#contenido .columna li{
+    float: left;
+    display:block;
+    width: 24%;
+}
+#contenido .columna li .cuadro{
+    background-color: rgb(226, 179, 118);
+    border-radius: 10px;
+    margin: 2%;
+    height: 450px;
+}
+#contenido .columna li .cuadro img{
+    border: 10px solid #fff;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#contenido .columna li .cuadro h2 a{
+    color: #fff;
+    text-align: center;
+    display: block; 
+    font-size: 150%;
+}
+#contenido .columna li .cuadro h2 a:hover{
+    color: rgb(98, 46, 0);
+}
+#contenido .columna li .cuadro p{
+    font-size: 100%;
+    text-align: left;
+    margin: 15px;
+}
+#formulario{
+    border-radius: 10px;
+    margin: 2%;
+    margin-top: -2%;
+    height: 450px;
+    background-color: rgb(53, 26, 1);
+}
+#formulario h3{
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+}
+#formulario fieldset{
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+}
+#fornulario fieldset label{
+    text-align: left;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#formulario fieldset .c{
+    width: 80%;
+    margin: 0px 0px 15px 20px;
+}
+#formulario fieldset #boton{
+    background-color: rgb(242, 182, 107);
+    color: rgb(34, 12, 0);
+    float: right;
+    width: 110px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 30%;
+    border-radius: 10px;
+}
+#formulario fieldset #celeste{
+    text-align: center;
+    font-size: 15.5px;
+}
+footer{
+    background-color: rgb(53, 26, 1);
+    margin: 30px 0px 0px 30px;
+    border-radius: 15px;
+    width: 96%;
+    position: absolute;
+}
+footer ul{
+    list-style: none;
+    overflow: hidden;
+}
+footer ul li{
+    float: left;
+    display:block;
+    width: 30%;
+    margin-left: 2.5%;
+    color: #fff;
+}
+footer ul li section{
+    margin: 10px;
+    font-size: 30px;
+}
+footer ul li section p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.836);
+    text-decoration: none;
+}
